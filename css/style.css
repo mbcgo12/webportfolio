@@ -1,0 +1,4 @@
+*{margin: 0; padding: 0;}
+
+.contents1{min-height: 100vh; height: 100vh; display: flex; background: #fff;}
+.contents2{background: #ddd; height: 120px;}
