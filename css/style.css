@@ -6,7 +6,9 @@ a{text-decoration: none;}
 
 
 #intro_wrap{min-height: 100vh; height: 100vh; display: flex; background: #fff; padding: 0 1rem; color: #272341; align-items: center; text-align: center;}
-.title_container{width: 100%; padding-left: 15px; padding-right: 15px; margin: 0 auto; display: none;}
+.title_container{width: 100%; padding-left: 15px; padding-right: 15px; margin: 0 auto;}
 .title_container .nameColor{color: skyblue;}
+.title_text_wrap{display: none;}
+.title_btn_Wrap{display: none;}
 .title_btn{transition: .4s; margin-top: 20px; padding: 3px 15px; border: 2px solid skyblue; display: inline-block; color: skyblue; font-weight: 700; font-size: 1.3rem;}
 .title_btn:hover{background-color: skyblue; color: #fff;}
