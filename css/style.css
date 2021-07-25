@@ -1,14 +1,29 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
-*{margin: 0; padding: 0; box-sizing: border-box;}
-body{font-family: 'Roboto', sans-serif;}
-h1{font-size: 2.3rem; line-height: 1.5 ;}
-a{text-decoration: none;}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');* { margin: 0; padding: 0; box-sizing: border-box; } 
+body { font-family: 'Roboto', sans-serif; } 
+h1 { font-size: 2.3rem; line-height: 1.5; } 
+a { text-decoration: none; } 
 
 
-#intro_wrap{min-height: 100vh; height: 100vh; display: flex; background: #fff; padding: 0 1rem; color: #272341; align-items: center; text-align: center;}
-.title_container{width: 100%; padding-left: 15px; padding-right: 15px; margin: 0 auto;}
-.title_container .nameColor{color: skyblue;}
-.title_text_wrap{display: none;}
-.title_btn_Wrap{display: none;}
-.title_btn{transition: .4s; margin-top: 20px; padding: 3px 15px; border: 2px solid skyblue; display: inline-block; color: skyblue; font-weight: 700; font-size: 1.3rem;}
-.title_btn:hover{background-color: skyblue; color: #fff;}
+#intro_wrap { min-height: 100vh; height: 100vh; display: flex; background: #fff; padding: 0 1rem; color: #272341; align-items: center; text-align: center; } 
+.title_container { width: 100%; padding-left: 15px; padding-right: 15px; margin: 0 auto; } 
+.title_container .nameColor { color: skyblue; } 
+.title_text_wrap { display: none; } 
+.title_btn_Wrap { display: none; } 
+.title_btn { transition: .6s; margin-top: 20px; padding: 3px 15px; border: 2px solid skyblue; display: inline-block; color: skyblue; font-weight: 700; font-size: 1.3rem; } 
+.title_btn:hover { background-color: skyblue; color: #fff; } 
+
+#aboutMe { padding-top: 3rem; padding-left: 1rem; padding-right: 1rem; padding-bottom: 10%; height: 100%; background-image: linear-gradient(to right, #74ebd5 0%, #9face6 100%);}
+#aboutMe > .container { width: 100%; padding-right: 15px; padding-left: 15px; margin-right: auto; margin-left: auto; } 
+.container > h2 { font-size: 2rem; margin: 0 0 4.5rem; font-weight: 700; text-align: center; color: #fff; } 
+.container > .aboutMe-MainWrap { display: flex; flex-wrap: wrap; margin-right: -15px; margin-left: -15px; } 
+.propile_Wrap{position: relative; width: 100%; padding-right: 15px; padding-left: 15px;}
+.propile_Wrap > .pripile_img{height: 100%; padding-bottom: 5rem; display: flex; align-items: center; justify-content: center;}
+.pripile_img > img{box-shadow: 0 1rem 3rem rgba(0,0,0,.175);}
+
+.aboutMe-textWrap{position: relative; width: 100%; padding-right: 15px; padding-left: 15px;}
+.aboutMe-textInfo{align-items: center; display: flex; height: 100%; justify-content: center; flex-direction: column;}
+.aboutMe-text{font-size: 1.1rem; text-align: center; color: #fff; font-weight: 100; margin-bottom: 1rem;}
+
+.aboutMe-button-wrap{margin-top: 1rem; display: flex; justify-content: center; align-items: center;}
+.aboutMe-button{color: #fff; border: 2px solid #fff; padding: .5rem 1.2rem; transition: .6s;}
+.aboutMe-button:hover{ background-color: #fff; color: skyblue;}
